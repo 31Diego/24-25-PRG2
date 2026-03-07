@@ -70,11 +70,11 @@ public class Gestion {
 
                 if (contadorMesas <= 7) {
                     mesa[i][j].setLugarMesa("terraza");
-                    mesa[i][j].setCapacidaMesa(2);
+                    mesa[i][j].setCapacidadMesa(2);
                     System.out.print("MT" + mesa[i][j].getNumeroMesa() + "||");
                 } else {
                     mesa[i][j].setLugarMesa("interior");
-                    mesa[i][j].setCapacidaMesa(6);
+                    mesa[i][j].setCapacidadMesa(6);
                     System.out.print("MI" + mesa[i][j].getNumeroMesa() + "||");
                 }
 

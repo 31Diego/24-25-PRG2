@@ -15,11 +15,11 @@ public class Mesas {
         this.numeroMesa = numeroMesa;
     }
 
-    public int getCapacidaMesa() {
+    public int getCapacidadMesa() {
         return capacidadMesa;
     }
 
-    public void setCapacidaMesa(int capacidadMesa) {
+    public void setCapacidadMesa(int capacidadMesa) {
         this.capacidadMesa = capacidadMesa;
     }
 
